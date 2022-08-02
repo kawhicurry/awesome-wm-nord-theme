@@ -5,7 +5,8 @@
 --    By Adrian C. (anrxc)   --
 -------------------------------
 
-local themes_path = require("gears.filesystem").get_themes_dir()
+-- local themes_path = require("gears.filesystem").get_themes_dir()
+local themes_path = ("/home/kawhicurry/.config/awesome/themes/")
 local dpi = require("beautiful.xresources").apply_dpi
 
 -- {{{ Main
